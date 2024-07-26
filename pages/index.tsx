@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Slider from "react-slick";
-import { ReservationsFromLg12 } from "../src/components/ReservationsFrom";
+import Slider from "react-slick"; 
 import Layout from "../src/layout/Layout";
 import { testimonialSliderOne } from "../src/sliderProps";
 const Index = () => {

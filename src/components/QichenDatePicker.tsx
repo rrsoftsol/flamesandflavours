@@ -6,7 +6,7 @@ const QichenDatePicker = () => {
   const [visible, setVisible] = useState(false);
   const [date, setDate] = useState(today);
 
-  const handleDateSelect = useCallback((newDate) => {
+  const handleDateSelect = useCallback((newDate: any) => {
     setDate(newDate);
     setVisible(false);
   }, []);
@@ -22,22 +22,11 @@ const QichenDatePicker = () => {
         className="form_control"
         id="datepicker"
         placeholder="Reserved Date"
-        name="date"
-        required=""
+        name="date" 
         onClick={togglePicker}
         value={`${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`}
       />
-      <div className="date-picker">
-        {visible ? (
-          <DatePicker
-            value={date}
-            onChange={handleDateSelect}
-            minDate={today}
-            weekStartsFrom="Monday"
-            className="absolute mt-2"
-          />
-        ) : null}
-      </div>
+       
     </div>
   );
 };

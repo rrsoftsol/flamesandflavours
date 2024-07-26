@@ -5,9 +5,9 @@ import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
 import "/node_modules/sassy-datepicker/dist/styles.css";
 
-const App = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }: any) => {
   const [loader, setLoader] = useState(true);
-  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  const delay = (ms:any) => new Promise((resolve) => setTimeout(resolve, ms));
   useEffect(() => {
     const load = async () => {
       await delay(1500);

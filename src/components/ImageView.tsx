@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import useClickOutside from "../useClickOutside";
 
-const ImgViews = ({ close, src }) => {
+const ImgViews = ({ close, src }:any) => {
   let domNode = useClickOutside(() => {
     close(false);
   });
@@ -16,7 +16,7 @@ const ImgViews = ({ close, src }) => {
         <div
           className={` popup-container mfp-container mfp-s-ready mfp-iframe-holder mfp-img-container`}
         >
-          <div className="mfp-content" ref={domNode}>
+          <div className="mfp-content"  >
             <div className="mfp-iframe-scaler">
               <img className="mfp-img" src={src} />
             </div>
@@ -39,8 +39,7 @@ const ImageView = () => {
         if (a.href.includes("/images")) {
           if (a.getAttribute("download") === null) {
             a.addEventListener("click", (e) => {
-              e.preventDefault();
-              setImgValue(a.href);
+              e.preventDefault(); 
               setImg(true);
             });
           }

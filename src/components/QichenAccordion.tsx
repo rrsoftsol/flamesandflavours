@@ -2,18 +2,18 @@ import { useCallback, useState } from "react";
 import { Accordion } from "react-bootstrap";
 
 const accordionData = [
-  { id: 1, title: "How Much Testy About Your Foods?" },
-  { id: 2, title: "Why We're Best Restaurant?" },
-  { id: 3, title: "Do You Want to Food Order in Online?" },
-  { id: 4, title: "What Payment Method Are You Accepted?" },
-  { id: 5, title: "What’s Your Return Policy?" },
-  { id: 6, title: "Company Success Story?" },
+  { id: "1", title: "How Much Testy About Your Foods?" },
+  { id: "2", title: "Why We're Best Restaurant?" },
+  { id: "3", title: "Do You Want to Food Order in Online?" },
+  { id: "4", title: "What Payment Method Are You Accepted?" },
+  { id: "5", title: "What’s Your Return Policy?" },
+  { id: "6", title: "Company Success Story?" },
 ];
 
-const QichenAccordion = ({ defaultActive }) => {
-  const [active, setActive] = useState(defaultActive ? defaultActive : 1);
+const QichenAccordion = ({ defaultActive }: any) => {
+  const [active, setActive] = useState(defaultActive ? defaultActive : "1");
   const toggleAccordion = useCallback(
-    (value) => {
+    (value: string) => {
       setActive(value);
     },
     [active]

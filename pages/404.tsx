@@ -4,7 +4,7 @@ import Partners from "../src/components/Partners";
 import Layout from "../src/layout/Layout";
 const E404 = () => {
   return (
-    <Layout>
+    <Layout header={1} footer={1}>
       <PageBanner pageName={"404 Pages"} title="404 Pages" />{" "}
       <section className="error-page-area pt-130 pb-130 p-r z-1">
         <div className="object object-one">

@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import useClickOutside from "../useClickOutside";
 
-const VideoPopup_ = ({ close, videoID }) => {
+const VideoPopup_ = ({ close, videoID }: any) => {
   let domNode = useClickOutside(() => {
     close(false);
   });
@@ -14,7 +14,7 @@ const VideoPopup_ = ({ close, videoID }) => {
         style={{ overflow: "hidden auto" }}
       >
         <div className="mfp-container mfp-s-ready mfp-iframe-holder">
-          <div className="mfp-content" ref={domNode}>
+          <div className="mfp-content"  >
             <div className="mfp-iframe-scaler">
               <button
                 title="Close (Esc)"
@@ -49,8 +49,7 @@ const VideoPopup = () => {
       a.forEach((a) => {
         if (a.href.includes("https://www.youtube.com")) {
           a.addEventListener("click", (e) => {
-            e.preventDefault();
-            setVideoValue(a.href);
+            e.preventDefault(); 
             setVideo(true);
           });
         }

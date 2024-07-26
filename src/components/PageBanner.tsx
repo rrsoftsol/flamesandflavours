@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const PageBanner = ({ title, pageName }) => {
+const PageBanner = ({ title, pageName }:any) => {
   return (
     <section
       className="page-banner light-red-bg p-r z-1 bg_cover"

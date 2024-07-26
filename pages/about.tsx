@@ -6,7 +6,7 @@ import TestimonialSliderThree from "../src/components/slider/TestimonialSliderTh
 import Layout from "../src/layout/Layout";
 const About = () => {
   return (
-    <Layout>
+    <Layout header={0} footer={0}>
       <PageBanner pageName={"About Us"} />
       <section className="about-shape-section pt-130 pb-80 p-r z-1">
         <div className="shape shape-one">

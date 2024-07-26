@@ -4,16 +4,16 @@ import { testimonialSliderThree } from "../../sliderProps";
 import { Component, Fragment } from "react";
 
 export class TestimonialSliderThree extends Component {
-  constructor(props) {
+  constructor(props: any) {
     super(props);
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
   }
   next() {
-    this.slider.slickNext();
+   // this.slider.slickNext();
   }
   previous() {
-    this.slider.slickPrev();
+   // this.slider.slickPrev();
   }
   render() {
     return (
@@ -36,8 +36,7 @@ export class TestimonialSliderThree extends Component {
             </div>
           </div>
         </div>
-        <Slider
-          ref={(c) => (this.slider = c)}
+        <Slider 
           {...testimonialSliderThree}
           className="testimonial-slider-three wow fadeInUp"
         >

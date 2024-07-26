@@ -86,8 +86,7 @@ Kavuri Hills, Hyderabad</p>
                           type="text"
                           className="form_control"
                           placeholder="Name"
-                          name="name"
-                          required=""
+                          name="name" 
                         />
                       </div>
                     </div>
@@ -97,8 +96,7 @@ Kavuri Hills, Hyderabad</p>
                           type="text"
                           className="form_control"
                           placeholder="Phone Number"
-                          name="phone"
-                          required=""
+                          name="phone" 
                         />
                       </div>
                     </div>
@@ -108,8 +106,7 @@ Kavuri Hills, Hyderabad</p>
                           type="email"
                           className="form_control"
                           placeholder="Email Address"
-                          name="email"
-                          required=""
+                          name="email" 
                         />
                       </div>
                     </div>
@@ -119,8 +116,7 @@ Kavuri Hills, Hyderabad</p>
                           type="url"
                           className="form_control"
                           placeholder="Website"
-                          name="website"
-                          required=""
+                          name="website" 
                         />
                       </div>
                     </div>

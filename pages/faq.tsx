@@ -1,8 +1,7 @@
 import { Nav, Tab } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
 import Partners from "../src/components/Partners";
-import QichenAccordion from "../src/components/QichenAccordion";
-import ReservationsFrom from "../src/components/ReservationsFrom";
+import QichenAccordion from "../src/components/QichenAccordion"; 
 import Layout from "../src/layout/Layout";
 const FAQ = () => {
   return (
@@ -111,9 +110,7 @@ const FAQ = () => {
                   <span className="sub-title">Booking table</span>
                   <h2>Make A Reservations</h2>
                 </div>
-                <div className="reservation-style-three">
-                  <ReservationsFrom />
-                </div>
+                
               </div>
             </div>
             <div className="col-lg-3 col-md-6 order-xl-3 order-2">

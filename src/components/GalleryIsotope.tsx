@@ -5,34 +5,16 @@ const GalleryIsotope = () => {
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
   useEffect(() => {
-    setTimeout(() => {
-      isotope.current = new Isotope(".gallery-row", {
-        itemSelector: ".gallery-column",
-        //    layoutMode: "fitRows",
-        percentPosition: true,
-        masonry: {
-          columnWidth: ".gallery-column",
-        },
-        animationOptions: {
-          duration: 750,
-          easing: "linear",
-          queue: false,
-        },
-      });
-    }, 1000);
+     
     //     return () => isotope.current.destroy();
   }, []);
   useEffect(() => {
-    if (isotope.current) {
-      filterKey === "*"
-        ? isotope.current.arrange({ filter: `*` })
-        : isotope.current.arrange({ filter: `.${filterKey}` });
-    }
+     
   }, [filterKey]);
-  const handleFilterKeyChange = (key) => () => {
+  const handleFilterKeyChange = (key:any) => () => {
     setFilterKey(key);
   };
-  const activeBtn = (value) => (value === filterKey ? "active" : "");
+  const activeBtn = (value:any) => (value === filterKey ? "active" : "");
   return (
     <Fragment>
       <div className="row">

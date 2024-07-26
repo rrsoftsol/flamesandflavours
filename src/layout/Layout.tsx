@@ -6,7 +6,7 @@ import BackToTop from "./BackToTop";
 import Footer from "./footer/Index";
 import Header from "./headers/Index";
 import SearchModal from "./SearchModal";
-const Layout = ({ header, children, footer }) => {
+const Layout = ({ header, children, footer }:any) => {
   useEffect(() => {
     animation();
     // niceSelect();

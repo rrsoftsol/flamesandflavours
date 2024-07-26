@@ -1,6 +1,6 @@
 import { Modal } from "react-bootstrap";
 
-const SearchModal = ({ show, handleClose }) => {
+const SearchModal = ({ show, handleClose }:any) => {
   return (
     <Modal
       className="modal fade search-modal"
