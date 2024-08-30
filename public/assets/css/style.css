@@ -1443,29 +1443,17 @@ button {
     padding: 15px;
   }
 }
-.navigation-one .primary-menu .site-branding .brand-logo {
-  padding: 20px 35px;
+.navigation-one .primary-menu .site-branding .brand-logo { 
   background-color: #DF3F00;
-}
-@media (max-width: 991px) {
-  .navigation-one .primary-menu .site-branding .brand-logo {
-    padding: 10px 15px;
-  }
-}
+} 
 
 /* Navigation Two */
 .navigation-two {
   padding: 20px 0;
 }
 .navigation-two .primary-menu .site-branding .brand-logo {
-  background-color: #DF3F00;
-  padding: 20px 35px;
-}
-@media (max-width: 767px) {
-  .navigation-two .primary-menu .site-branding .brand-logo {
-    padding: 20px 25px;
-  }
-}
+  background-color: #DF3F00; 
+} 
 
 /* Page Header  */
 .page-header .navigation-two {
@@ -5415,8 +5403,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .about-company-widget .footer-content .footer-logo {
-  background-color: #DF3F00;
-  padding: 20px 35px;
+  background-color: #DF3F00; 
 }
 .about-company-widget .footer-content > p {
   margin-bottom: 20px;

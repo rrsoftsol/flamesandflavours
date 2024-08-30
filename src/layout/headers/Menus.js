@@ -24,7 +24,11 @@ const DeskTopMenus = () => {
             About
           </Link>
         </li>
-        
+        <li className="menu-item">
+          <Link legacyBehavior href="/franchise">
+            Franchise
+          </Link>
+        </li>
       </ul>
     </nav>
   );
@@ -58,7 +62,11 @@ const MobileMenu = () => {
             About
           </Link>
         </li>
-       
+        <li className="menu-item">
+          <Link legacyBehavior href="franchise">
+            Franchise
+          </Link>
+        </li>
       </ul>
     </nav>
   );

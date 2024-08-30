@@ -56,7 +56,7 @@ const Header1 = ({ openSearchModal }) => {
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
-                    src="assets/images/logo/logo-white.png"
+                    src="assets/images/logo/logo.jpg"
                     alt="Site Logo"
                   />
                 </a>

@@ -56,7 +56,7 @@ const DefaultHeader = ({ openSearchModal }) => {
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
-                    src="assets/images/logo/logo-white.png"
+                    src="assets/images/logo/logo.jpg"
                     alt="Site Logo"
                   />
                 </a>
@@ -70,7 +70,7 @@ const DefaultHeader = ({ openSearchModal }) => {
                   <Link legacyBehavior href="/">
                     <a className="brand-logo">
                       <img
-                        src="assets/images/logo/logo-black.png"
+                        src="assets/images/logo/logo.jpg"
                         alt="Site Logo"
                       />
                     </a>

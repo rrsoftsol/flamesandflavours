@@ -27,7 +27,7 @@ const Index = () => {
             <div className="col-lg-6 order-lg-1 order-2">
               {/*=== Hero Content ===*/}
               <div className="hero-content mb-40 pr-lg-40">
-                <h1 className="wow fadeInUp">Crispy Chicken Burgers</h1>
+                <h1 className="wow fadeInUp">The Real Indian Burgers</h1>
                 <p className="wow fadeInDown">
                 We serve a variety of refreshments, snacks and delicacies to satisfy your taste buds and make sure you get the best experience with us
                 </p>
@@ -35,7 +35,7 @@ const Index = () => {
                   <span>
                     <img src="assets/images/down-arrow.png" alt="" />
                   </span>
-                  <Link legacyBehavior href="/menu-seafood">
+                  <Link legacyBehavior href="/menu">
                     <a className="main-btn btn-red">
                      Contact
                       <i className="far fa-arrow-right" />
@@ -79,11 +79,11 @@ const Index = () => {
                 </div>
                 <div className="content d-flex">
                   <h3 className="title">
-                    <Link legacyBehavior href="/menu-seafood">
+                    <Link legacyBehavior href="/menu">
                       <a>Burger</a>
                     </Link>
                   </h3>
-                  <Link legacyBehavior href="/menu-seafood">
+                  <Link legacyBehavior href="/menu">
                     <a className="icon-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -103,7 +103,7 @@ const Index = () => {
                       Bread
                     </Link>
                   </h3>
-                  <Link legacyBehavior href="/menu-seafood">
+                  <Link legacyBehavior href="/menu">
                     <a className="icon-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -123,7 +123,7 @@ const Index = () => {
                       Shawarma
                     </Link>
                   </h3>
-                  <Link legacyBehavior href="/menu-seafood">
+                  <Link legacyBehavior href="/menu">
                     <a className="icon-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -143,7 +143,7 @@ const Index = () => {
                       Lassi
                     </Link>
                   </h3>
-                  <Link legacyBehavior href="/menu-seafood">
+                  <Link legacyBehavior href="/menu">
                     <a className="icon-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -163,7 +163,7 @@ const Index = () => {
                       Chicken
                     </Link>
                   </h3>
-                  <Link legacyBehavior href="/menu-seafood">
+                  <Link legacyBehavior href="/menu">
                     <a className="icon-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -179,11 +179,11 @@ const Index = () => {
                 </div>
                 <div className="content d-flex">
                   <h3 className="title">
-                    <Link legacyBehavior href="/menu-seafood">
+                    <Link legacyBehavior href="/menu">
                       <a>Pizza</a>
                     </Link>
                   </h3>
-                  <Link legacyBehavior href="/menu-seafood">
+                  <Link legacyBehavior href="/menu">
                     <a className="icon-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -192,19 +192,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-8">
-              {/*=== Quote Box ===*/}
-              <div className="quote-box text-center text-white wow fadeInUp">
-                <p>
-                  Need any Special Food or Any Birthday Cakes?{" "}
-                  <Link legacyBehavior href="/menu-fastfood">
-                    <a>Order Now</a>
-                  </Link>
-                </p>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </section>
       {/*=== End Category Section ===*/}
@@ -224,7 +212,7 @@ const Index = () => {
                 <p>
                 We serve a variety of refreshments, snacks and delicacies to satisfy your taste buds and make sure you get the best experience with us
                 </p>
-                <Link legacyBehavior href="/menu-seafood">
+                <Link legacyBehavior href="/menu">
                   <a className="main-btn btn-red">
                     learn more
                     <i className="far fa-arrow-right" />
@@ -289,7 +277,7 @@ const Index = () => {
                   </div>
                   <div className="text">
                     <h3 className="item-title-price">
-                      <Link legacyBehavior href="/menu-fastfood">
+                      <Link legacyBehavior href="/menu">
                         <a className="item-title">Burger</a>
                       </Link> 
                       <span className="dot-border" /> 
@@ -326,7 +314,7 @@ const Index = () => {
                   </div>
                   <div className="text">
                     <h3 className="item-title-price">
-                      <Link legacyBehavior href="/menu-fastfood">
+                      <Link legacyBehavior href="/menu">
                         <a className="item-title">Shawarma</a>
                       </Link>
                       <span className="dot-border" /> 
@@ -363,7 +351,7 @@ const Index = () => {
                   </div>
                   <div className="text">
                     <h3 className="item-title-price">
-                      <Link legacyBehavior href="/menu-fastfood">
+                      <Link legacyBehavior href="/menu">
                         <a className="item-title">Pizza</a>
                       </Link>
                       <span className="dot-border" /> 
@@ -400,7 +388,7 @@ const Index = () => {
                   </div>
                   <div className="text">
                     <h3 className="item-title-price">
-                      <Link legacyBehavior href="/menu-fastfood">
+                      <Link legacyBehavior href="/menu">
                         <a className="item-title">Baked Chicken Wings</a>
                       </Link>
                       <span className="dot-border" /> 

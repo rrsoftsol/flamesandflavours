@@ -13,7 +13,7 @@ const DefaultFooter = () => {
                   <Link legacyBehavior href="/">
                     <a className="footer-logo mb-30">
                       <img
-                        src="assets/images/logo/logo-white.png"
+                        src="assets/images/logo/logo.jpg"
                         alt="Brand Logo"
                       />
                     </a>

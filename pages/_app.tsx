@@ -23,7 +23,7 @@ const App = ({ Component, pageProps }: any) => {
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.ico"
+          href="assets/images/favicon.png"
           type="image/png"
         />
         {/*====== Flaticon css ======*/}
