@@ -5,9 +5,9 @@ const Contact = () => {
   return (
     <Layout>
       <PageBanner pageName={"Contact Us"} title="Contact" />{" "}
-      <section className="contact-section pt-130 pb-130">
+      <section className="contact-section pt-30 pb-130">
         <div className="container">
-          <div className="contact-info-wrapper pt-70 pb-30 wow fadeInUp">
+          <div className="p-5 wow fadeInUp">
             <div className="row justify-content-center">
               <div className="col-xl-6 col-lg-10">
                 <div className="section-title text-center mb-50">
@@ -64,7 +64,7 @@ Kavuri Hills, Hyderabad</p>
               </div>
             </div>
           </div>
-          <div className="contact-wrapper-one mt-80 pt-70 pb-80 wow fadeInUp">
+          <div className="mt-80 p-5 wow fadeInUp">
             <div className="row justify-content-center">
               <div className="col-xl-6 col-lg-12">
                 <div className="section-title text-center mb-60">
@@ -152,8 +152,7 @@ Kavuri Hills, Hyderabad</p>
         <div className="map-box">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4362903011815!2d78.39198632401249!3d17.438819949818495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93a3778445e7%3A0xd267ce7c464853f5!2sRIYAREDDY%20SOFTSOL%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1679296014694!5m2!1sen!2sin" />
         </div>
-      </section>{" "}
-      <Partners />
+      </section>{" "} 
     </Layout>
   );
 };

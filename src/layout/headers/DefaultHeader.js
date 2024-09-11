@@ -20,22 +20,22 @@ const DefaultHeader = ({ openSearchModal }) => {
               
                 <ul className="social-link">
                   <li>
-                    <a href="#">
+                    <a href="https://www.instagram.com/flamesandflavours2024/">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.instagram.com/flamesandflavours2024/">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.instagram.com/flamesandflavours2024/">
                       <i className="fab fa-youtube" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.instagram.com/flamesandflavours2024/">
                       <i className="fab fa-instagram" />
                     </a>
                   </li>

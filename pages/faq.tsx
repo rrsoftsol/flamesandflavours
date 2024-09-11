@@ -120,8 +120,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-      </section>
-      <Partners />
+      </section> 
     </Layout>
   );
 };

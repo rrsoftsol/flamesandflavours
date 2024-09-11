@@ -222,67 +222,151 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*=== End Why_choose Section ===*/}
-      {/*=== Start Team Section ===*/}
-      <section className="team-section light-red-bg p-r z-1 pt-120 pb-100">
-        <div
-          className="dot-bg bg_cover"
-          style={{ backgroundImage: "url(assets/images/bg/dot-bg.png)" }}
-        />
+     
+      {/*====== Start History Section ======*/}
+      <section className="history-section pb-130">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-5 col-lg-10">
-              <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">Best food menu</span>
-                <h2>Meet Our Experience &amp; Master Chefs</h2>
+            <div className="col-xl-6 col-lg-10">
+              <div className="section-title text-center mb-55 wow fadeInDown">
+                <span className="sub-title">Company History</span>
+                <h2>Let’s Insight Our History</h2>
               </div>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="chef-img">
-                  <img src="assets/images/team/chef-7.jpg" alt="Chef Image" />
-                  <div className="chef-overlay" />
-                  <div className="hover-content">
-                    <h3 className="title">Jimmie K. Cryer</h3>
-                    <p className="position">Senior Chef</p>
+            <div className="col-lg-11">
+              <div className="single-history-item wow fadeInLeft mb-100">
+                <div className="shape shape-one">
+                  <span>
+                    <img src="assets/images/shape/line-2.png" alt="shape" />
+                  </span>
+                </div>
+                <div className="row align-items-center">
+                  <div className="col-lg-5">
+                    <div className="history-image-box">
+                      <img
+                        src="assets/images/gallery/history-2.jpg"
+                        alt="History Image"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-7">
+                    <div className="history-content-box">
+                      <span className="duration">In 1995 When We Started</span>
+                      <p>
+                        Sed ut perspiciatis unde omnis natus sit voluptaten
+                        accusantium doloremque laudantium totam aperiam eaque
+                        ipsa quae abillo inventore veritatis
+                      </p>
+                      <div className="author-title-thumb d-flex">
+                        <div className="author-thumb">
+                          <img
+                            src="assets/images/gallery/author-1.jpg"
+                            alt="Author Image"
+                          />
+                        </div>
+                        <div className="author-title">
+                          <h4>
+                            Jimmie K. Cryer <span>/ CEO &amp; Founder</span>
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="chef-img">
-                  <img src="assets/images/team/chef-8.jpg" alt="Chef Image" />
-                  <div className="chef-overlay" />
-                  <div className="hover-content">
-                    <h3 className="title">Jimmie K. Cryer</h3>
-                    <p className="position">Senior Chef</p>
+              <div className="single-history-item wow fadeInRight mb-100">
+                <div className="shape shape-one">
+                  <span>
+                    <img src="assets/images/shape/line-2.png" alt="shape" />
+                  </span>
+                </div>
+                <div className="row align-items-center">
+                  <div className="col-lg-5">
+                    <div className="history-image-box">
+                      <img
+                        src="assets/images/gallery/history-3.jpg"
+                        alt="History Image"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-7">
+                    <div className="history-content-box">
+                      <span className="duration">In 1998 We’ve 5 Member</span>
+                      <p>
+                        Sorem ipsum dolor sit amet consectetur adipiscing elit.
+                        Turpis dignissim elit porta augue. Nibh lectust sed non
+                        ultrices sed ornare vulputate
+                      </p>
+                      <ul className="check-style-one">
+                        <li>Best Way to Serve Our Foods</li>
+                        <li>Low Cost &amp; Onlie Orders</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="chef-img">
-                  <img src="assets/images/team/chef-9.jpg" alt="Chef Image" />
-                  <div className="chef-overlay" />
-                  <div className="hover-content">
-                    <h3 className="title">Jimmie K. Cryer</h3>
-                    <p className="position">Senior Chef</p>
+              <div className="single-history-item wow fadeInLeft mb-100">
+                <div className="shape shape-one">
+                  <span>
+                    <img src="assets/images/shape/line-2.png" alt="shape" />
+                  </span>
+                </div>
+                <div className="row align-items-center">
+                  <div className="col-lg-5">
+                    <div className="history-image-box">
+                      <img
+                        src="assets/images/gallery/history-4.jpg"
+                        alt="History Image"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-7">
+                    <div className="history-content-box">
+                      <span className="duration">
+                        In 1999 Great Achievement
+                      </span>
+                      <p>
+                        On the other hand denounce righteous indignation and
+                        dislike men who are so beguiled demoralized by the
+                        charms of pleasure of the moment, so blinded by desire,
+                        that they cannot foresee the pain and trouble that are
+                        bound to ensue and equal blame
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="chef-img">
-                  <img src="assets/images/team/chef-10.jpg" alt="Chef Image" />
-                  <div className="chef-overlay" />
-                  <div className="hover-content">
-                    <h3 className="title">Jimmie K. Cryer</h3>
-                    <p className="position">Senior Chef</p>
+              <div className="single-history-item wow fadeInRight mb-100">
+                <div className="shape shape-one">
+                  <span>
+                    <img src="assets/images/shape/line-2.png" alt="shape" />
+                  </span>
+                </div>
+                <div className="row align-items-center">
+                  <div className="col-lg-5">
+                    <div className="history-image-box">
+                      <img
+                        src="assets/images/gallery/history-5.jpg"
+                        alt="History Image"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-7">
+                    <div className="history-content-box">
+                      <span className="duration">In 2003 Added New Member</span>
+                      <p>
+                        Sorem ipsum dolor sit amet consectetur adipiscing elit.
+                        Turpis dignissim elit porta augue. Nibh lectust sed non
+                        ultrices sed ornare vulputate
+                      </p>
+                      <ul className="check-style-one">
+                        <li>
+                          25 Years of Experience in Restaurant Services in India and Dubai
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -290,10 +374,10 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              <div className="team-button mt-30 text-center wow fadeInUp">
-                <Link legacyBehavior href="/chefs">
-                  <a className="main-btn btn-red">
-                    become a chef
+              <div className="history-button text-center wow fadeInUp">
+                <Link legacyBehavior href="/history">
+                  <a className="main-btn filled-btn">
+                    View more history
                     <i className="far fa-arrow-right" />
                   </a>
                 </Link>
@@ -301,72 +385,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
-      {/*=== End Team Section ===*/}
-      {/*=== Start Video Section ===*/}
-      <section className="video-line-section pt-130 pb-80 p-r z-1">
-        <div className="line-shape line-shape-one">
-          <span>
-            <img src="assets/images/shape/line-1.png" alt="Shape" />
-          </span>
-        </div>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-7">
-              {/*=== Video Image Box ===*/}
-              <div className="video-one_image-box mb-50 p-r z-1 wow fadeInLeft">
-                <img
-                  src="assets/images/gallery/video-1.jpg"
-                  alt="Video Image"
-                />
-                <div className="image-overlay" />
-                <div className="play-content-box">
-                  <a
-                    href="https://www.youtube.com/watch?v=t8k71QcArnk"
-                    className="video-popup"
-                  >
-                    <i className="fas fa-play" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5">
-              {/*=== Video Content Box ===*/}
-              <div className="video-content-box content-box-gap pl-lg-40 mb-50 wow fadeInRight">
-                <div className="section-title section-title-left">
-                  <span className="sub-title">Watch Videos</span>
-                  <h2>How Can We Made Foods For Customers</h2>
-                </div>
-                <p>
-                  Sit amet consectetur adipiscing elitsue risus mauris quam
-                  adipiscing phasellus aene ante orcirat scelerisque enim ut
-                  nulla
-                </p>
-                <ul className="check-style-one mb-30">
-                  <li>Best Way to Serve Our Foods</li>
-                  <li>Low Cost &amp; Onlie Orders</li>
-                </ul>
-                <Link legacyBehavior href="/about">
-                  <a className="main-btn btn-black">
-                    watch more
-                    <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*=== End Video Section ===*/}
-      {/*=== Start Team Section ===*/}
-      <section className="testimonial-section-three pb-130">
-        <div className="container">
-          <TestimonialSliderThree />
-        </div>
-      </section>
-      {/*=== End Team Section ===*/}
-      {/*====== Start Partners Section ======*/}
-      <Partners />
+      </section>{" "} 
     </Layout>
   );
 };

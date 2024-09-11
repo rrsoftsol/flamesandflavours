@@ -181,7 +181,7 @@ const History = () => {
                       </p>
                       <ul className="check-style-one">
                         <li>
-                          25 Years of Experience in Restaurant Services in USA
+                          25 Years of Experience in Restaurant Services in India and Dubai
                         </li>
                       </ul>
                     </div>
@@ -203,8 +203,7 @@ const History = () => {
             </div>
           </div>
         </div>
-      </section>{" "}
-      <Partners />
+      </section>{" "} 
     </Layout>
   );
 };

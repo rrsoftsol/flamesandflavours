@@ -21,7 +21,7 @@ const DeskTopMenus = () => {
         </li>
         <li className="menu-item">
           <Link legacyBehavior href="/about">
-            About
+            Our Brand Story
           </Link>
         </li>
         <li className="menu-item">
@@ -59,7 +59,7 @@ const MobileMenu = () => {
         </li>
         <li className="menu-item">
           <Link legacyBehavior href="about">
-            About
+            Our Brand Story
           </Link>
         </li>
         <li className="menu-item">

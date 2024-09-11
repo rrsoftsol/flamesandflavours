@@ -91,16 +91,17 @@ const Index = () => {
                 </div>
               </div>
             </div>
+           
             <div className="col-lg-4 col-md-6 col-sm-12">
               {/*=== Single Category Item ===*/}
               <div className="single-category-item mb-30 wow fadeInUp">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-3.png" alt="thumb icon" />
+                  <img src="assets/images/icon/shawarma.png" alt="thumb icon" />
                 </div>
                 <div className="content d-flex">
                   <h3 className="title">
                     <Link legacyBehavior href="menu-seafood">
-                      Bread
+                      Shawarma
                     </Link>
                   </h3>
                   <Link legacyBehavior href="/menu">
@@ -115,12 +116,12 @@ const Index = () => {
               {/*=== Single Category Item ===*/}
               <div className="single-category-item mb-30 wow fadeInUp">
                 <div className="icon">
-                  <img src="assets/images/icon/shawarma.png" alt="thumb icon" />
+                  <img src="assets/images/icon/icon-3.png" alt="thumb icon" />
                 </div>
                 <div className="content d-flex">
                   <h3 className="title">
                     <Link legacyBehavior href="menu-seafood">
-                      Shawarma
+                      Sandwich
                     </Link>
                   </h3>
                   <Link legacyBehavior href="/menu">
