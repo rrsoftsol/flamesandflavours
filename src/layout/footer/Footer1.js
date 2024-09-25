@@ -52,31 +52,40 @@ const Footer1 = () => {
             <div className="col-lg-4 col-md-6">
               {/*=== Footer Widget ===*/}
               <div className="footer-widget footer-nav-widget-two pl-lg-70 mb-40 wow fadeInUp">
-                <h4 className="widget-title">Products</h4>
+                <h4 className="widget-title">Menu Items</h4>
                 <div className="footer-nav-content">
-                  <ul className="footer-nav">
-                  
-                    <li>
-                      <a href="#">Chicken Burger</a>
-                    </li>
-                   
-                    <li>
-                      <a href="#">Chicken Roll</a>
-                    </li>
-                    <li>
-                      <a href="#">Ice-Cream</a>
-                    </li>
-                  </ul>
-                  <ul className="footer-nav">
-                    
-                    <li>
-                      <a href="#">Organic Juice</a>
-                    </li>
-                    <li>
-                      <a href="#">Lemon Juice</a>
-                    </li>
-                    
-                  </ul>
+                <ul className="footer-nav">
+                     
+                     <li>
+                       <a href="#">Grilled Chicken Burger</a>
+                     </li>
+                     <li>
+                       <a href="#">Shawarma ROll</a>
+                     </li>
+                     <li>
+                       <a href="#">Shawarma Bun</a>
+                     </li>
+                     <li>
+                       <a href="#">Sandwich</a>
+                     </li>
+                     <li>
+                       <a href="#">French Fries</a>
+                     </li>
+                   </ul>
+                   <ul className="footer-nav">
+                   <li>
+                       <a href="#">Thick Shakes</a>
+                     </li>
+                     <li>
+                       <a href="#">Fresh Juices</a>
+                     </li>
+                     <li>
+                       <a href="#">Lassi</a>
+                     </li>
+                     <li>
+                       <a href="#">Icecreams</a>
+                     </li>
+                   </ul>
                 </div>
               </div>
             </div>
@@ -132,7 +141,7 @@ Kavuri Hills, Hyderabad-500081</p>
           </div>
         </div>
       </div>
-      <a href="https://api.whatsapp.com/send?phone=9000068373&text=Hi I would love to know more about the franchise." target="_blank"
+      <a href="https://api.whatsapp.com/send?phone=+919000068373&text=Hi I would like to know more about the franchise." target="_blank"
 
 className="btn-whatsapp-pulse btn-whatsapp-pulse-border">
 <i className="fab fa-whatsapp"></i>

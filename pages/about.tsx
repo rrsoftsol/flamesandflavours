@@ -63,7 +63,7 @@ const About = () => {
                         <i className="flaticon-food-serving" />
                       </div>
                       <div className="text">
-                        <h5>100+ Popular Testy Foods Menu</h5>
+                        <h5>20+ Popular Testy Foods Menu</h5>
                       </div>
                     </div>
                   </div>

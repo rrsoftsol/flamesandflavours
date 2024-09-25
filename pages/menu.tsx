@@ -2,7 +2,7 @@ import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
 import Partners from "../src/components/Partners"; 
 import Layout from "../src/layout/Layout";
-const MenuFastFood = () => {
+const Menu = () => {
   return (
     <Layout>
       <PageBanner pageName={"Menu"} title="Our Flavours" />
@@ -169,4 +169,4 @@ const MenuFastFood = () => {
     </Layout>
   );
 };
-export default MenuFastFood;
+export default Menu;

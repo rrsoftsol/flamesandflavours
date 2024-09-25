@@ -1533,7 +1533,7 @@ button {
   padding: 200px 0 60px;
 }
 @media (max-width: 767px) {
-  .banner-one {]
+  .banner-one {
     padding: 180px 0 60px;
   }
 }

@@ -5,29 +5,17 @@ const DeskTopMenus = () => {
   return (
     <nav className="main-menu desktop-menu">
       <ul>
-        <li className="menu-item has-children">
-          <a href="/">
-            Home
-             
-          </a>
-           
-        </li>
-        <li className="menu-item has-children">
-          <a href="/menu">
-            Menu
-           
-          </a>
-         
+        <li className="menu-item">
+          <Link href="/">Home</Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="/about">
-            Our Brand Story
-          </Link>
+          <Link href="/menu">Menu</Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="/franchise">
-            Franchise
-          </Link>
+          <Link href="/about">Our Brand Story</Link>
+        </li>
+        <li className="menu-item">
+          <Link href="/franchise">Franchise</Link>
         </li>
       </ul>
     </nav>
@@ -44,28 +32,16 @@ const MobileMenu = () => {
     <nav className="main-menu mobile-menu">
       <ul>
         <li className="menu-item has-children">
-          <a href="#" onClick={() => active("home")}>
-            Home
-           
-          </a>
-          
+          <Link href="/">Home</Link>
         </li>
         <li className="menu-item has-children">
-          <a href="#" onClick={() => active("Menu")}>
-            Menu
-          
-          </a>
-          
+          <Link href="menu">Menu</Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="about">
-            Our Brand Story
-          </Link>
+          <Link href="about">Our Brand Story</Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="franchise">
-            Franchise
-          </Link>
+          <Link href="franchise">Franchise</Link>
         </li>
       </ul>
     </nav>

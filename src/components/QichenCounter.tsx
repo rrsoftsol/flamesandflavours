@@ -44,7 +44,7 @@ const QichenCounter = () => {
             </div>
             <div className="text">
               <h2 className="number">
-                <Counter end={100} />+
+                <Counter end={20} />+
               </h2>
               <p>Favorite Dishes</p>
             </div>
@@ -59,7 +59,7 @@ const QichenCounter = () => {
             </div>
             <div className="text">
               <h2 className="number">
-                <Counter end={7853} />+
+                <Counter end={4} />+
               </h2>
               <p>Customer Rating</p>
             </div>
