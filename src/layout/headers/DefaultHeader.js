@@ -9,7 +9,7 @@ const DefaultHeader = ({ openSearchModal }) => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7">
-              <div className="top-left">
+              <div className="top-left  ps-xl-5">
                 <span className="text">
                   Best Food Franchise in India. get your franchise now!
                 </span>
@@ -50,13 +50,13 @@ const DefaultHeader = ({ openSearchModal }) => {
         <div className="nav-overlay" />
         <div className="container-fluid">
           {/*=== Primary Menu ===*/}
-          <div className="primary-menu">
+          <div className="primary-menu px-5">
             {/*=== Site Branding ===*/}
             <div className="site-branding">
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
-                    src="assets/images/logo/logo.jpg"
+                    src="assets/images/logo/logo.png"
                     alt="Site Logo"
                   />
                 </a>
@@ -70,7 +70,7 @@ const DefaultHeader = ({ openSearchModal }) => {
                   <Link legacyBehavior href="/">
                     <a className="brand-logo">
                       <img
-                        src="assets/images/logo/logo.jpg"
+                        src="assets/images/logo/logo.png"
                         alt="Site Logo"
                       />
                     </a>

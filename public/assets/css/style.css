@@ -1228,13 +1228,7 @@ button {
   position: relative;
   margin-left: 20px;
   margin-right: 20px;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .header-navigation .main-menu ul > li {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
+} 
 .header-navigation .main-menu ul > li > a {
   position: relative;
   display: block;
@@ -1442,17 +1436,11 @@ button {
   .navigation-one .primary-menu {
     padding: 15px;
   }
-}
-.navigation-one .primary-menu .site-branding .brand-logo { 
-  background-color: #DF3F00;
 } 
 
 /* Navigation Two */
 .navigation-two {
   padding: 20px 0;
-}
-.navigation-two .primary-menu .site-branding .brand-logo {
-  background-color: #DF3F00; 
 } 
 
 /* Page Header  */
@@ -5401,10 +5389,7 @@ form.reservation-form .nice-select ul.list {
   line-height: 45px;
   margin-bottom: 15px;
 }
-
-.about-company-widget .footer-content .footer-logo {
-  background-color: #DF3F00; 
-}
+ 
 .about-company-widget .footer-content > p {
   margin-bottom: 20px;
 }

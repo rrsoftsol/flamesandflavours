@@ -9,7 +9,7 @@ const Header1 = ({ openSearchModal }) => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7">
-              <div className="top-left">
+              <div className="top-left ps-xl-5">
                 <span className="text">
                   Best Food Franchise in India. get your franchise now!
                 </span>
@@ -56,7 +56,7 @@ const Header1 = ({ openSearchModal }) => {
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
-                    src="assets/images/logo/logo.jpg"
+                    src="assets/images/logo/logo.png"
                     alt="Site Logo"
                   />
                 </a>
@@ -70,7 +70,7 @@ const Header1 = ({ openSearchModal }) => {
                   <Link legacyBehavior href="/">
                     <a className="brand-logo">
                       <img
-                        src="assets/images/logo/logo.jpg"
+                        src="assets/images/logo/logo.png"
                         alt="Site Logo"
                       />
                     </a>
