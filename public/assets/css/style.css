@@ -1542,10 +1542,10 @@ button {
 /*====== Banner One ======*/
 .banner-one {
   background-color: rgba(223, 63, 0, 0.07);
-  padding: 240px 0 60px;
+  padding: 200px 0 60px;
 }
 @media (max-width: 767px) {
-  .banner-one {
+  .banner-one {]
     padding: 180px 0 60px;
   }
 }
@@ -1590,7 +1590,7 @@ button {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .banner-one .hero-content h1 {
-    font-size: 100px;
+    font-size: 90px;
   }
 }
 @media (max-width: 1199px) {

@@ -40,28 +40,7 @@ const MenuFastFood = () => {
                       </Link> 
                     </h3>
                     <p>Roasted langoustine, consommé</p>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <span>
-                          <a href="#">(5k Reviews)</a>
-                        </span>
-                      </li>
-                    </ul>
+                    
                   </div>
                 </div>
                 <div className="single-menu-item mb-30 wow fadeInUp">
@@ -75,28 +54,21 @@ const MenuFastFood = () => {
                       </Link> 
                     </h3>
                     <p>Roasted langoustine, consommé</p>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <span>
-                          <a href="#">(5k Reviews)</a>
-                        </span>
-                      </li>
-                    </ul>
+                    
+                  </div>
+                </div>
+                <div className="single-menu-item mb-30 wow fadeInUp">
+                  <div className="thumb">
+                    <img src="assets/images/menu/menu-7.png" alt="" />
+                  </div>
+                  <div className="text">
+                    <h3 className="item-title-price">
+                      <Link legacyBehavior href="/menu-fastfood">
+                        <a className="item-title">Shawarma-bun</a>
+                      </Link> 
+                    </h3>
+                    <p>Roasted langoustine, consommé</p>
+                    
                   </div>
                 </div>
                 <div className="single-menu-item mb-30 wow fadeInUp">
@@ -111,65 +83,10 @@ const MenuFastFood = () => {
                       
                     </h3>
                     <p>Roasted langoustine, consommé</p>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <span>
-                          <a href="#">(5k Reviews)</a>
-                        </span>
-                      </li>
-                    </ul>
+                   
                   </div>
                 </div>
-                <div className="single-menu-item mb-30 wow fadeInUp">
-                  <div className="thumb">
-                    <img src="assets/images/menu/thumb-3.png" alt="" />
-                  </div>
-                  <div className="text">
-                    <h3 className="item-title-price">
-                      <Link legacyBehavior href="/menu-fastfood">
-                        <a className="item-title">Baked Chicken Wings</a>
-                      </Link> 
-                    </h3>
-                    <p>Roasted langoustine, consommé</p>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <span>
-                          <a href="#">(5k Reviews)</a>
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -183,32 +100,11 @@ const MenuFastFood = () => {
                   <div className="text">
                     <h3 className="item-title-price">
                       <Link legacyBehavior href="/menu-fastfood">
-                        <a className="item-title">Pasta Fettuccine</a>
+                        <a className="item-title">Thick Shakes</a>
                       </Link> 
                     </h3>
                     <p>Roasted langoustine, consommé</p>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <span>
-                          <a href="#">(5k Reviews)</a>
-                        </span>
-                      </li>
-                    </ul>
+                  
                   </div>
                 </div>
                 
@@ -219,32 +115,11 @@ const MenuFastFood = () => {
                   <div className="text">
                     <h3 className="item-title-price">
                       <Link legacyBehavior href="/menu-fastfood">
-                        <a className="item-title">Seafood Pizza</a>
+                        <a className="item-title">Fresh Juices</a>
                       </Link> 
                     </h3>
                     <p>Roasted langoustine, consommé</p>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <span>
-                          <a href="#">(5k Reviews)</a>
-                        </span>
-                      </li>
-                    </ul>
+                   
                   </div>
                 </div>
                 <div className="single-menu-item mb-30 wow fadeInUp">
@@ -254,32 +129,11 @@ const MenuFastFood = () => {
                   <div className="text">
                     <h3 className="item-title-price">
                       <Link legacyBehavior href="/menu-fastfood">
-                        <a className="item-title">Submarine Sandwich</a>
+                        <a className="item-title">Lassi</a>
                       </Link> 
                     </h3>
                     <p>Roasted langoustine, consommé</p>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <span>
-                          <a href="#">(5k Reviews)</a>
-                        </span>
-                      </li>
-                    </ul>
+                   
                   </div>
                 </div>
                 <div className="single-menu-item mb-30 wow fadeInUp">
@@ -289,32 +143,11 @@ const MenuFastFood = () => {
                   <div className="text">
                     <h3 className="item-title-price">
                       <Link legacyBehavior href="/menu-fastfood">
-                        <a className="item-title">Chicken Biryani</a>
+                        <a className="item-title">Ice Creames</a>
                       </Link> 
                     </h3>
                     <p>Roasted langoustine, consommé</p>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <span>
-                          <a href="#">(5k Reviews)</a>
-                        </span>
-                      </li>
-                    </ul>
+                   
                   </div>
                 </div>
              
@@ -332,218 +165,7 @@ const MenuFastFood = () => {
         </div>
       </section>
       {/*=== End Menu Section ===*/}
-      
-      {/*=== Start Instagram Section ===*/}
-      <section className="instagram-gallery pt-130 pb-100">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInUp">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-1.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-1.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInDown">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-2.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-2.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInUp">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-3.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-3.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInDown">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-4.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-4.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInUp">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-5.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-5.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInDown">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-6.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-6.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInUp">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-7.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-7.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInDown">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-8.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-8.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInUp">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-9.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-9.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInDown">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-10.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-10.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInUp">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-11.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-11.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-              <div className="instagram-box mb-30 wow fadeInDown">
-                <div className="instagram-img">
-                  <img
-                    src="assets/images/instagram/insta-12.jpg"
-                    alt="Instagram Image"
-                  />
-                  <div className="insta-overlay" />
-                  <a
-                    href="assets/images/instagram/insta-12.jpg"
-                    className="img-popup insta-icon"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> 
+       
     </Layout>
   );
 };
