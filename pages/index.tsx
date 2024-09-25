@@ -17,11 +17,7 @@ const Index = () => {
             <img src="assets/images/hero/hero-shape-2.png" alt="shape" />
           </span>
         </div>
-        <div className="shape line-shape-one">
-          <span>
-            <img src="assets/images/shape/line-1.png" alt="shape" />
-          </span>
-        </div>
+        
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-1 order-2">
@@ -47,7 +43,7 @@ const Index = () => {
             <div className="col-lg-6 order-lg-2 order-1">
               {/*=== Hero Image ===*/}
               <div className="hero-image-box mb-40 wow fadeInRight">
-                <img src="assets/images/hero/hero-1.jpg" alt="Hero Image" />
+                <img src="assets/images/gallery/gallery-5.jpg" alt="Hero Image" />
               </div>
             </div>
           </div>
@@ -225,16 +221,16 @@ const Index = () => {
               {/*=== About Content Box ===*/}
               <div className="about-image-gallery ml-lg-40">
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-6 align-content-center">
                     <img
-                      src="assets/images/gallery/gallery-4.jpg"
+                      src="assets/images/menu/menu-7.png"
                       className="mb-40 wow fadeInUp"
                       alt="About Image"
                     />
                   </div>
                   <div className="col-md-6">
                     <img
-                      src="assets/images/gallery/gallery-5.jpg"
+                      src="assets/images/gallery/element-1.png"
                       className="mb-40 wow fadeInDown"
                       alt="About Image"
                     />

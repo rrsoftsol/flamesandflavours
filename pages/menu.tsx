@@ -95,7 +95,7 @@ const MenuFastFood = () => {
               <div className="menu-content-box pl-lg-30 mb-50 wow fadeInUp">
                 <div className="single-menu-item mb-30">
                   <div className="thumb">
-                    <img src="assets/images/menu/thumb-5.png" alt="" />
+                    <img src="assets/images/gallery/gallery-8.jpg" alt="" />
                   </div>
                   <div className="text">
                     <h3 className="item-title-price">
@@ -110,7 +110,7 @@ const MenuFastFood = () => {
                 
                 <div className="single-menu-item mb-30 wow fadeInUp">
                   <div className="thumb">
-                    <img src="assets/images/menu/thumb-4.png" alt="" />
+                    <img src="assets/images/gallery/gallery-8.jpg" alt="" />
                   </div>
                   <div className="text">
                     <h3 className="item-title-price">
@@ -124,7 +124,7 @@ const MenuFastFood = () => {
                 </div>
                 <div className="single-menu-item mb-30 wow fadeInUp">
                   <div className="thumb">
-                    <img src="assets/images/menu/thumb-6.png" alt="" />
+                    <img src="assets/images/gallery/gallery-8.jpg" alt="" />
                   </div>
                   <div className="text">
                     <h3 className="item-title-price">
@@ -138,7 +138,7 @@ const MenuFastFood = () => {
                 </div>
                 <div className="single-menu-item mb-30 wow fadeInUp">
                   <div className="thumb">
-                    <img src="assets/images/menu/thumb-7.png" alt="" />
+                    <img src="assets/images/gallery/gallery-8.jpg" alt="" />
                   </div>
                   <div className="text">
                     <h3 className="item-title-price">
@@ -156,7 +156,7 @@ const MenuFastFood = () => {
             <div className="col-lg-6">
               <div className="menu-img-box mb-50 pl-lg-40 wow fadeInRight">
                 <img
-                  src="assets/images/menu/menu-single-1.jpg"
+                  src="assets/images/gallery/gallery-8.jpg"
                   alt="Menu Image"
                 />
               </div>

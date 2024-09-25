@@ -132,7 +132,7 @@ Kavuri Hills, Hyderabad-500081</p>
           </div>
         </div>
       </div>
-      <a href="https://api.whatsapp.com/send?phone=9550709677&text=Hi I would love to know more about the franchise." target="_blank"
+      <a href="https://api.whatsapp.com/send?phone=9000068373&text=Hi I would love to know more about the franchise." target="_blank"
 
 className="btn-whatsapp-pulse btn-whatsapp-pulse-border">
 <i className="fab fa-whatsapp"></i>
